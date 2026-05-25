@@ -130,10 +130,10 @@
     <div class="container">
       <h2 class="section-title">СКРИНШОТЫ <span class="wip">[В РАЗРАБОТКЕ]</span></h2>
       <div class="screenshots-grid">
-        <div class="screenshot-placeholder"><img src="Изображения/Противник.png" alt="Противник"></div>
-        <div class="screenshot-placeholder"><img src="Изображения/Боевая сцена.png" alt="Боевая сцена"></div>
-        <div class="screenshot-placeholder"><img src="Изображения/Магическая способность.png" alt="Магическая способность"></div>
-        <div class="screenshot-placeholder"><img src="Изображения/Тюремный коридор.jpg" alt="Тюремный коридор"></div>
+        <div class="screenshot-placeholder" data-caption="ПРОТИВНИК"><img src="Изображения/Противник.png" alt="Противник"></div>
+        <div class="screenshot-placeholder" data-caption="БОЕВАЯ СЦЕНА"><img src="Изображения/Боевая сцена.png" alt="Боевая сцена"></div>
+        <div class="screenshot-placeholder" data-caption="МАГИЧЕСКАЯ СПОСОБНОСТЬ"><img src="Изображения/Магическая способность.png" alt="Магическая способность"></div>
+        <div class="screenshot-placeholder" data-caption="ТЮРЕМНЫЙ КОРИДОР"><img src="Изображения/Тюремный коридор.jpg" alt="Тюремный коридор"></div>
       </div>
     </div>
   </section>
@@ -146,6 +146,13 @@
       <button class="btn secondary big">ДОБАВИТЬ В ЖЕЛАЕМОЕ</button>
     </div>
   </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img src="" alt="" id="lightbox-img">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
